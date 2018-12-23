@@ -193,6 +193,11 @@
         circles[i].scale(.9);
       }
     }
+    
+    var elem = document.getElementById("myCanvas");
+    if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+    }
 
   </script>
 
